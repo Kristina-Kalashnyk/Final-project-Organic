@@ -24,36 +24,6 @@
         }
     }
 
-    .section__header-suptitle {
-        @include responsive(xs) {
-            width: 100%;
-            text-align: center;
-        }
-    }
-
-    .section__header-title {
-        width: 78%;
-        margin-bottom: 22px;
-
-        @include responsive(xl) {
-            width: 100%;
-        }
-
-        @include responsive(lg) {
-            width: 60%;
-        }
-
-        @include responsive(md) {
-            width: 100%;
-        }
-
-        @include responsive(xs) {
-            text-align: center;
-            width: 100%;
-            margin-bottom: 10px;
-        }
-    }
-
     &__description {
         @extend .description-1;
         margin-bottom: 56px;

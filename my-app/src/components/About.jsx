@@ -53,7 +53,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <MyButton bgColor={"blue"} text={"Shop Now"}>Shop now</MyButton>
+              <MyButton bgColor={"blue"} text={"Shop Now"}></MyButton>
             </div>
           </div>
           </div>

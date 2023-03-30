@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from '../components/Header';
-import CompletedOrder from '../components/CompletedOrder';
+import Order from '../components/Order';
 import Footer from '../components/Footer';
 
 const CartPage = () => {
     return (
       <div>
           <Header/>
-          <CompletedOrder/>
+          <Order/>
           <Footer/>
       </div>
     )
