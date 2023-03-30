@@ -1,23 +1,16 @@
 import './App.css';
 import HomePage from './page/HomePage';
-import NotFound from './components/NotFound';
+import NotFoundPage from './page/NotFoundPage';
+import CartPage from './page/CartPage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-/*
-function App() {
-  return (
-    <div className="App">
-    <HomePage/>
-    </div>
-  );
-}
 
-export default App;*/
 export default function App() {
   return (
   <BrowserRouter>
   <Routes>
-  <Route path="/" element={<HomePage/>} />
-  <Route path="*" element={<NotFound />} />
+  <Route path="/" element={<HomePage />} />
+  <Route path="/Cart" element={<CartPage />} />
+  <Route path="/404" element={<NotFoundPage />} />
   </Routes>
   </BrowserRouter>
   );

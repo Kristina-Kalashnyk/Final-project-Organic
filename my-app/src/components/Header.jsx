@@ -4,6 +4,7 @@ import Logo from '../img/header/logo.svg';
 import Search from '../img/header/search.svg';
 import NavbarButtonIcon from '../img/header/shop-icon.svg';
 
+
 const Header = () => {
 
   return (
@@ -29,7 +30,7 @@ const Header = () => {
                 <li className="header__navigation-item">
                   <a href="#pages" className="header__navigation-link">
                     Pages
-                  </a>
+                  </a>                
                 </li>
                 <li className="header__navigation-item">
                   <a href="#shop" className="header__navigation-link">
