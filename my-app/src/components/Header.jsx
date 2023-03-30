@@ -1,5 +1,7 @@
+import "../styles/main.scss";
 import React from 'react';
 import Logo from '../img/header/logo.svg';
+import Search from '../img/header/search.svg';
 import NavbarButtonIcon from '../img/header/shop-icon.svg';
 
 const Header = () => {
@@ -47,6 +49,14 @@ const Header = () => {
               </ul>
             </nav>
           </div>
+          <div className="navbar__search-line">
+          <button className="navbar__search-button">
+          <div className="navbar__search">
+              <img src={Search} alt="search..." />
+            </div>
+            </button>
+          </div>
+          
           <button className="navbar__button">
             <div className="navbar__button-icon">
               <img src={NavbarButtonIcon} alt="icon..." />
